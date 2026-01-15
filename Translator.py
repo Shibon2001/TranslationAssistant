@@ -50,7 +50,7 @@ def jarvis_greet():
     speak(greeting_msg)
     time.sleep(1)
 
-    # ✅ This line will now speak properly
+    # This line will now speak properly
     intro_msg = "What can I translate for you today, sir?"
     print(f"🤖 JARVIS: {intro_msg}")
     speak(intro_msg)
@@ -97,7 +97,7 @@ def main():
         speak("Translation complete, sir.")
         print("🤖 JARVIS: Translation complete, sir.\n")
 
-        # ✅ Added polite follow-up messages
+        # Added polite follow-up messages
         again = input("Do you want me to translate another text, sir? (yes/no): ").strip().lower()
         if again not in ['yes', 'y']:
             goodbye_msg = "Can I translate something else for you today, sir?"
@@ -116,3 +116,4 @@ def main():
 # --- Run Program ---
 if __name__ == "__main__":
     main()
+
