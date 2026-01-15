@@ -32,16 +32,10 @@ Example Session:-
 🌐 Enter target language (full name, e.g., English, Hindi): Spanish
 
 🤖 JARVIS: Translating, please wait...
-
-------------------------------------------------------------
-Original: How are you?
-Translated (Spanish): ¿Cómo estás?
-------------------------------------------------------------
 🤖 JARVIS: Translation complete, sir.
 
 Do you want me to translate another text, sir? (yes/no): no
 🤖 JARVIS: Have a nice day, sir.
-
 
 🤖 How It Works:-
 🔸The GoogleTranslator detects the input language automatically.
@@ -49,18 +43,13 @@ Do you want me to translate another text, sir? (yes/no): no
 🔸Dynamic greetings are generated based on the system time.
 🔸The script continuously loops until the user chooses to exit.
 
-
 🧰 Troubleshooting:-
 Issue	                         Possible Fix
 Voice not matching language	Some OSes lack multilingual voice packs. Install additional voices or modify the speak() function manually.
 Speech skipping lines	        This script reinitializes the engine each time to prevent that issue.
 Translation not working	        Ensure you have an active internet connection (required by Google Translator).
 
-
 🧑‍💻 Author
-
 Shibon Das
 Python Developer & AI Enthusiast
-
 📧 shibondas2020@gmail.com
-🌐 
