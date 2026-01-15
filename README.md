@@ -1,5 +1,4 @@
-🧠 Jarvis Translator Assistant:- A conversational AI-based voice translation assistant built with Python. Jarvis can greet you, translate text between multiple languages using Google Translator, and speak aloud both the original and translated text with realistic voice synthesis via pyttsx3.
-
+🤖 Jarvis Translator Assistant:- A conversational AI-based voice translation assistant built with Python. Jarvis can greet you, translate text between multiple languages using Google Translator, and speak aloud both the original and translated text with realistic voice synthesis via pyttsx3.
 
 🚀 Features:-
 ✅ Voice-based interaction — Jarvis speaks to you using text-to-speech.
@@ -8,14 +7,12 @@
 ✅ Dynamic greetings — Responds appropriately based on time of day.
 ✅ Polite, continuous translation loop — Keeps translating until you say “no.”
 
-
 🧩 Technologies Used:-
 Library	                Purpose
-deep_translator	       Handles text translation using Google Translate API
-pyttsx3	               Converts text to speech (offline TTS engine)
-datetime	       Provides time-based greetings
-time	               Used for pacing responses with natural pauses
-
+deep_translator	      Handles text translation using Google Translate API
+pyttsx3	              Converts text to speech (offline TTS engine)
+datetime	            Provides time-based greetings
+time	                Used for pacing responses with natural pauses
 
 🎙️ Usage:-
 1.Jarvis will greet you according to the time of day.
@@ -26,7 +23,6 @@ time	               Used for pacing responses with natural pauses
 🔸Display both original and translated forms.
 🔸Speak the translation out loud.
 5.You can continue translating until you choose to exit.
-
 
 Example Session:-
 🤖 JARVIS: Good afternoon, sir. I am Jarvis, your personal translation assistant.
@@ -47,7 +43,7 @@ Do you want me to translate another text, sir? (yes/no): no
 🤖 JARVIS: Have a nice day, sir.
 
 
-🧠 How It Works:-
+🤖 How It Works:-
 🔸The GoogleTranslator detects the input language automatically.
 🔸pyttsx3 picks a suitable voice based on the translation language (fallbacks if unavailable).
 🔸Dynamic greetings are generated based on the system time.
