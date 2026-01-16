@@ -11,10 +11,10 @@
 
 
 🤖**Technologies Used:-**
-🔸deep_translator-	     Handles text translation using Google Translate API.
-🔸pyttsx3-	             Converts text to speech (offline TTS engine).
-🔸datetime	             Provides time-based greetings.
-🔸time-	                 Used for pacing responses with natural pauses.
+🔸Deep_translator-	     Handles text translation using Google Translate API.
+🔸Pyttsx3-	             Converts text to speech (offline TTS engine).
+🔸Datetime	             Provides time-based greetings.
+🔸Time-	                 Used for pacing responses with natural pauses.
 
 
 
