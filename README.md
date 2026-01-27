@@ -3,6 +3,7 @@
 
 🤖**Features:-**
 🔸 Voice-based interaction — Jarvis speaks to you using text-to-speech.
+
 🔸 Automatic language detection — No need to specify the source language.
 🔸Supports 100+ languages — Powered by deep-translator.
 🔸Dynamic greetings — Responds appropriately based on time of day.
